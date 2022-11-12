@@ -6,11 +6,12 @@ html, body {
 }
 
 body {
-  background: url(../images/backgrounds/architecture.jpg) center no-repeat;
+  /* background: url(../images/backgrounds/architecture.jpg) center no-repeat; */
+  background-image: linear-gradient(#00008B, #0000FF, #00BFFF, #00FFFF, yellow);
   background-size: cover;
   background-attachment: fixed;
   font-family: Helvetica, Arial, sans-serif;
-  font-size: 100%;
+  font-size: 90%;
 }
 
 .wrapper {
@@ -21,12 +22,12 @@ body {
 
 #content {
   padding: 20px;
-  background: rgba(255,255,255,.85);
+  background-image: linear-gradient(#00008B, #0000FF, #00BFFF, #00FFFF, yellow);
 }
 
 h1, h2 {
   font-family: 'Gabriela', serif;
-  color: #fff;
+  color: yellow;
 }
 
 h1 {
@@ -56,7 +57,7 @@ p {
 }
 
 a {
-  color: black;
+  color: blue;
   text-decoration: none;
 }
 
